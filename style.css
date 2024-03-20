@@ -1,0 +1,136 @@
+*{
+	box-sizing: border-box;
+}
+
+/* style for body part*/
+body{
+	background-color: navy;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	margin: 0;
+}
+
+/* style for container class*/
+.container{
+	width: 500px;
+	background-color: #fff;
+	border-radius: 4px;
+	overflow: hidden;
+	
+}
+
+/* style for heading in detail page*/
+.h1{
+	text-align: center;
+	color: #FFFFFF;
+}
+
+/* style for header in register page*/
+.header{
+	background-color: purple;
+	padding: 10px 20px;
+	text-align: center;
+	color: white;
+}
+
+/* style for form*/
+.form{
+	padding: 20px 20px;
+}
+
+/* style for success input*/
+.form-control.success input{
+	border: 2px solid green;
+}
+
+/* style for error input*/
+.form-control.error input{
+	border: 3px solid red;
+	box-shadow:0 0 6px rgb(120, 11, 11);
+}
+
+/* style for form-control*/
+.form-control{
+	position: relative;
+	content: "* ";
+	color: black;
+	font-size: 20 px;
+	font-weight: bolder;
+}
+
+/* style for label*/
+.form-control lable{
+	display: inline-block;
+	margin-bottom: 3px;
+	color: black;
+}
+
+/* style for input*/
+.form-control input{
+	display: block;
+	width: 100%;
+	padding: 10px;
+	border-radius: 10px;
+	margin-top: 5px;
+	border: 1px solid #ced4da; /* Default border color */
+	transition: border-color .25s ease;
+}
+
+/* style for  input-focus*/
+.form-control input:focus {
+	border-color: #333; /* Darkened border color when focused */
+	outline: 0;
+}
+
+/* style for span*/
+.form-control span{
+	margin: 0px 8px;
+	color: red;
+	visibility: hidden;
+	font-weight: bold;
+}
+
+/* style for requirement field*/
+.required::before{
+	content: "* ";
+	color: red;
+	font-size: 20 px;
+}
+
+/* style for button*/
+.btn-control button {
+	background-color: blue;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	cursor: pointer;
+	border-radius: 10px;
+	margin: 0px 20px 10px;
+	align-items: center;
+	width: 100px;
+}
+
+/* style for button-hover*/
+.btn-control button:hover {
+	background-color: darkblue;
+}
+
+/* style button control in details page*/
+.btn-control {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* style for button register page*/
+.btn-back {
+	color: white;
+	background-color: blue;
+	border-radius: 5px;
+	border: none;
+	position: relative;
+	margin: 20px 20px 20px 100px;
+	padding: 10px 10px 10px 10px;
+}
